@@ -1,0 +1,32 @@
+package DSA;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.Test;
+
+public class HomeWork2 {
+	
+	/*
+	 * Get the count of each character count in the given String
+	 * Input: String
+	 * Output: Map<Character,Integer>
+	 */
+	@Test
+	public void Test1() {
+		findCharacterCount("Hello Welcome to SDET");
+	}
+	
+	public void findCharacterCount(String str) {
+		char[] input = str.toCharArray();
+		Map<Character,Integer> output = new HashMap<Character,Integer>();
+		for (Character c : input) {
+			if(!output.containsKey(c)) {
+				output.put(c, 0);
+			}else {
+				output.put(c, output.get(c)+1);
+			}
+		}
+	}
+
+}

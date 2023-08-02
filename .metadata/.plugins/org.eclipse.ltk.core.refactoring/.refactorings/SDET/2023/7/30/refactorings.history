@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DSA.PowerOfThree&apos; to &apos;PowerOfThree_326&apos;&#x0D;&#x0A;- Original project: &apos;SDET&apos;&#x0D;&#x0A;- Original element: &apos;DSA.PowerOfThree&apos;&#x0D;&#x0A;- Renamed element: &apos;DSA.PowerOfThree_326&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PowerOfThree&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;DSA{PowerOfThree.java[PowerOfThree" matchStrategy="1" name="PowerOfThree_326" qualified="false" references="true" similarDeclarations="false" stamp="1690122558519" textual="false" version="1.0"/>
+</session>

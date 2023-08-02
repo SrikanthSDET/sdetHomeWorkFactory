@@ -1,0 +1,30 @@
+package DSA;
+
+import org.junit.Test;
+
+public class HomeWork1 {
+	/*
+	 * Input: Number
+	 * Output: Boolean
+	 * Traverse 0 to n
+	 * Check modulus if any number give remainder zero then it is prime number
+	 */
+	@Test
+	public void Test1() {
+		findPrimeNumber(5);
+	}
+	
+	public Boolean findPrimeNumber(int Num) {
+		int Cnt=0;
+		for(int i=1; i <= Num; i++) {
+			if(Num%i == 0) {
+				Cnt++;
+			}
+		}
+		if(Cnt>1)
+		return false;	
+		
+		return true;
+	}
+
+}

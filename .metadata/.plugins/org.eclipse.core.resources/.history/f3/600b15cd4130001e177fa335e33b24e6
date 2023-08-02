@@ -1,0 +1,48 @@
+package DSA30July;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class SelfDividingNumbers_728 {
+	
+	/*
+	 * 
+	 */
+	
+	@Test
+	public void Test1() {
+		int[] findSelfDividingNumbers = findSelfDividingNumbers(1,22);
+		Assert.assertArrayEquals(new int[] {1,2,3,4,5,6,7,8,9,11,12,15,22}, findSelfDividingNumbers);
+	}
+	
+	public int[] findSelfDividingNumbers(int left,int right) {
+		String out="";
+		for(int i=left;i<=right;i++) {
+			
+			if(i<10 && i>0) {
+				out=out+i;
+			}
+			int rem=0;
+			boolean selfDivide=false;
+			while(i>9) {
+				rem = i%10;
+				if(rem==0)
+				{
+					selfDivide=false;
+					break;
+				}else if(i%rem==0){
+					
+					selfDivide=true;
+					i=i/10;
+				}				
+			}
+			
+			if(selfDivide)
+				out=out+i;
+			
+		}
+		
+		return new int[] {0};
+	}
+	
+}

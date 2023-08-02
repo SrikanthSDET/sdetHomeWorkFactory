@@ -1,0 +1,39 @@
+package DSA;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+
+public class Assesment2 {
+
+	/*
+	 * Input : Int Array
+	 * Output : int
+	 * get the length of the given array
+	 * Sorting the Array
+	 * Traverse through loop
+	 * Check the Condition
+	 * 
+	 */
+	@Test
+	public void Test1() {
+		System.out.println(findMissingNumber(new int[] {2,3,0}));
+	}
+	//0,2,3
+	public int findMissingNumber(int[] n) {
+		int output=0;
+	    Arrays.sort(n);
+	    for(int i=0;i<=n.length;i++) {
+	    	for(int j=i+1;j<n.length;j++) {
+	    		if(i == n[j]) {
+	    			output=n[j-1];
+	    			break;
+	    		}else {
+	    			output=n[j-1];
+	    		}
+	    	}
+	    }
+		
+		return output;
+	}
+}

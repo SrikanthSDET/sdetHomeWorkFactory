@@ -1,0 +1,33 @@
+package DSA;
+
+import org.junit.Test;
+
+public class Assessment1 {
+	@Test
+	public void test1() {
+		System.out.println(fizzBuzz(5));
+	}
+	
+	public String[] fizzBuzz(int n) {
+		
+		String[] fizz = new String[n];
+		for(int i=1;i<=n;i++) {
+			if(i%3==0 && i%5==0) {
+				fizz[i]="FizzBuzz";				
+			}
+			else if(i%3==0) {
+				fizz[i]="Fizz";
+			}
+			else if(i%5==0) {
+				fizz[i]="Buzz";
+			}
+			else {
+				fizz[i]=String.valueOf(i);
+			}
+		}
+		
+		return fizz;
+	}
+	
+
+}
