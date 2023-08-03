@@ -14,7 +14,7 @@ public class SelfDividingNumbers_728 {
 	
 	@Test
 	public void Test1() {
-		//int[] findSelfDividingNumbers = findSelfDividingNumbers(1,22);
+		//List<Integer> findSelfDividingNumbers = findSelfDividingNumbers(1,22);
 		//List<Integer> expectedList = new ArrayList<Integer>{1,2,3,4,5,6,7,8,9,11,12,15,22};
 		//Assert.assertEquals(new Integer[] {1,2,3,4,5,6,7,8,9,11,12,15,22}, findSelfDividingNumbers.toString());
 		
