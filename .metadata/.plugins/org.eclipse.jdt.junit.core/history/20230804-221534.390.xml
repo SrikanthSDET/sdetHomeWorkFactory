@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AvgValueOfEvenNumDivByThree_2455" project="SDET" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="DSA30July.AvgValueOfEvenNumDivByThree_2455" time="0.001">
-    <testcase name="Test1" classname="DSA30July.AvgValueOfEvenNumDivByThree_2455" time="0.001"/>
-    <testcase name="Test2" classname="DSA30July.AvgValueOfEvenNumDivByThree_2455" time="0.0"/>
-  </testsuite>
-</testrun>
