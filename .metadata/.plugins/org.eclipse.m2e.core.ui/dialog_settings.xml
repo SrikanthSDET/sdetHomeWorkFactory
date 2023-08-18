@@ -49,6 +49,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="UI"/>
+			<item value="RESTAPI"/>
 			<item value="SDET"/>
 			<item value="datastructure"/>
 		</list>
