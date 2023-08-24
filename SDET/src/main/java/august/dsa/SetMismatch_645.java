@@ -78,21 +78,16 @@ public class SetMismatch_645 {
 		if (nums[nums.length - 1] != nums.length)
 			return new int[] { arrElemVal, nums.length };
 
-		/*
-		 * if (arrElemVal == dupIndex + 1) { return new int[] { arrElemVal, arrElemVal +
-		 * 1 }; }
-		 */
-
-		for (int i = 0; i <= nums.length; i += 2) {
+		for (int i = 0; i <= nums.length; i++) {
 			if (nums[i + 1] - nums[i] > 1) {
-				return new int[] { arrElemVal, i + 1 };
+				if (arrElemVal == dupIndex + 1) {
+					return new int[] { arrElemVal, i + 1 };
+				}else {
+					return new int[] { arrElemVal, i + 2 };
+				}
+				
 			}
 		}
-
-		/*
-		 * for (int i = 0; i <= nums.length; i++) { if ((i + 1) != nums[i]) { index = i;
-		 * break; } }
-		 */
 
 		return new int[] { arrElemVal, index + 1 };
 	}
