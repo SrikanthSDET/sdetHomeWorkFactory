@@ -48,11 +48,11 @@ public class EditServiceTerritories {
 		
 		driver.executeScript("arguments[0].click()", serviceTerritoriesElement);
 		
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		
 		driver.findElement(By.xpath("//a[contains(@class,'rowActionsPlaceHolder')]")).click();
-		Thread.sleep(1000);
-		driver.findElement(By.xpath("(//a[@title='Edit'])[2]")).click();
+		//Thread.sleep(1000);
+		driver.findElement(By.xpath("//a[@title='Edit']")).click();
 		
 		
 		
@@ -60,9 +60,9 @@ public class EditServiceTerritories {
 		
 		countryElement.clear();
 		
-		countryElement.sendKeys("North Ameria");
+		countryElement.sendKeys("North America");
 		
-		String ownerText = driver.findElement(By.xpath("(//span[text()='Owner'])[3]/../following-sibling::div//span[@class='displayLabel']")).getText();
+		String ownerText = driver.findElement(By.xpath("//span[text()='Owner']/../following-sibling::div//span[@class='displayLabel']")).getText();
 		
 		System.out.println(ownerText);
 	}
