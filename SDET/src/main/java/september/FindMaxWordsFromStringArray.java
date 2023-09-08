@@ -69,6 +69,11 @@ public class FindMaxWordsFromStringArray {
 	public void testData3() {
 		Assert.assertEquals(3, findMaxWordCount(new String[] { "hello sdet batch" }));
 	}
+	
+	@Test
+	public void testData4() {
+		Assert.assertEquals(1, findMaxWordCount(new String[] { "hello" }));
+	}
 
 	public int findMaxWordCount(String[] sentences) {
 		int maxWordCount = 0;
