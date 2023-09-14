@@ -36,7 +36,7 @@ public class HeightChecker {
 			else {
 				if(heights[i]-heights[i+1]>=1 || heights[i]-heights[i+1]<=-1 )
 				count++;
-				//return heights.length-(i+1);
+				
 				atleasetOneChange=true;
 			}
 		}

@@ -10,9 +10,15 @@ import junit.framework.Assert;
 
 public class DecodeTheMessage {
 	@Test
-	public void testPositiveData() {
+	public void testPositiveData1() {
 		Assert.assertEquals("this is a secret",
 				findTheDecodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv"));
+	}
+	
+	@Test
+	public void testPositiveData2() {
+		Assert.assertEquals("the five boxing wizards jump quickly",
+				findTheDecodeMessage("eljuxhpwnyrdgtqkviszcfmabo", "zwx hnfx lqantp mnoeius ycgk vcnjrdb"));
 	}
 
 	public String findTheDecodeMessage(String key, String message) {
