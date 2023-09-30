@@ -7,7 +7,7 @@ import junit.framework.Assert;
 public class ReverseString {
 	@Test
 	public void testData() {
-		Assert.assertEquals("0lleh", TwoPointerReverseString("hello"));
+		Assert.assertEquals("0lleh", findReverseString("hello"));
 	}
 	public String findReverseString(String str) {
 		String output="";

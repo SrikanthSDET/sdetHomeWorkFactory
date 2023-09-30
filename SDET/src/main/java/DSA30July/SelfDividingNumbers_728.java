@@ -14,21 +14,22 @@ public class SelfDividingNumbers_728 {
 	
 	@Test
 	public void Test1() {
-		//int[] findSelfDividingNumbers = findSelfDividingNumbers(1,22);
+		//int[] findSelfDividingNumbers = findSelfDividingNumbers1(1,22);
 		//List<Integer> expectedList = new ArrayList<Integer>{1,2,3,4,5,6,7,8,9,11,12,15,22};
 		//Assert.assertEquals(new Integer[] {1,2,3,4,5,6,7,8,9,11,12,15,22}, findSelfDividingNumbers.toString());
-		
+		//Assert.assertEquals(expectedList, findSelfDividingNumbers1(1,22));
 	}
 	
 	@Test
 	public void Test2() {
-		//List<Integer> findSelfDividingNumbers = findSelfDividingNumbers(47,85);
+		//List<Integer> findSelfDividingNumbers = findSelfDividingNumbers1(47,85);
+		//List<Integer> expectedList = new ArrayList<Integer>{1,2,3,4,5,6,7,8,9,11,12,15,22};
 		//Assert.assertEquals(new Integer[] {48,55,66,77}, findSelfDividingNumbers.toString());
 		
 	}
 	
 	
-	public int[] findSelfDividingNumbers1(int left,int right) {
+	public List<Integer> findSelfDividingNumbers1(int left,int right) {
 		int[] out=new int[(right-left)+1];
 		int counter=0;
 		for(int i=left;i<=right;i++) {
@@ -64,13 +65,13 @@ public class SelfDividingNumbers_728 {
 			
 		}
 		}
-		int[] output = new int[counter];	
+		  
+		  List<Integer> output = new ArrayList<Integer>();
 		  for(int i=0;i<out.length-1;i++) { 
 			  if(out[i]!=0) {
-				  output[i]=out[i]; 				  
+				  output.add(out[i]); 				  
 				  } 
 			  }	 
-
 		
 		return output;
 	}
