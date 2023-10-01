@@ -1,5 +1,7 @@
 package september;
 
+import java.util.Arrays;
+
 import org.junit.Test;
 
 public class SortingTheSentence {
@@ -20,6 +22,7 @@ public class SortingTheSentence {
 				words[i+1]=temp;
 			}
 		}
+		System.out.println(Arrays.toString(words));
 		return "";
 	}
 

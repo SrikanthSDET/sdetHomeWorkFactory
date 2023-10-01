@@ -5,6 +5,8 @@ import java.util.Map;
 
 import org.junit.Test;
 
+import junit.framework.Assert;
+
 public class MajorityElement_Map_169 {
 	
 	/*
@@ -17,11 +19,11 @@ public class MajorityElement_Map_169 {
 	 */
 	@Test
 	public void Test1() {
-		findMajorityElement(new int[] {2,2,1,1,1,2,2});
 		
+		Assert.assertEquals(2, findMajorityElement(new int[] {2,2,1,1,1,2,2}));
 	}
 	
-	public void findMajorityElement(int[] n) {
+	public int findMajorityElement(int[] n) {
 		int mid = n.length/2;
 		Map<Integer,Integer> output = new HashMap<Integer,Integer>();
 		for (int i : n) {
@@ -34,9 +36,10 @@ public class MajorityElement_Map_169 {
 		}
 		for (int j : output.keySet()) {
 			if(output.get(j)>mid) {
-				System.out.print(j);
+				return j;
 			}
 		}
+		return 0;
 	}
 
 }

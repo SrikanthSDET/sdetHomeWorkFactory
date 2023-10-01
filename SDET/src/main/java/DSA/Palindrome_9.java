@@ -20,19 +20,19 @@ Iterate the loop till we reach the num 0
 	 * 
 	 */
 	
-	//@Test
+	@Test
 	public void Test1() {
 		boolean findPalindorm = findPalindrom(121);
 		Assert.assertEquals(true, findPalindorm);
 	}
 	
-	//@Test
+	@Test
 	public void Test2() {
 		boolean findPalindorm = findPalindrom(-121);
 		Assert.assertEquals(false, findPalindorm);
 	}
 	
-	//@Test
+	@Test
 	public void Test3() {
 		boolean findPalindorm = findPalindrom(10);
 		Assert.assertEquals(false, findPalindorm);
@@ -40,7 +40,7 @@ Iterate the loop till we reach the num 0
 	
 	@Test
 	public void Test4() {
-		boolean findPalindorm = findPalindrom1(121);
+		boolean findPalindorm = findPalindrom(121);
 		Assert.assertEquals(true, findPalindorm);
 	}
 	public boolean findPalindrom(int num) {
