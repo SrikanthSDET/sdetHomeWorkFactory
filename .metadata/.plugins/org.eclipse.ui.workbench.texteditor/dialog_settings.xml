@@ -12,6 +12,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="package october;"/>
 			<item value="isMulti"/>
 		</list>
 		<list key="replacehistory">
