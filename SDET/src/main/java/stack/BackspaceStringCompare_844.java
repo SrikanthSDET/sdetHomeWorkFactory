@@ -19,22 +19,25 @@ public class BackspaceStringCompare_844 {
         Assert.assertFalse(findBackspaceString("a#c","b"));
     }
     public boolean findBackspaceString(String s, String t){
-        Stack<Character> sStack = new Stack<>();
+    	Stack<Character> sStack = new Stack<>();
         Stack<Character> tStack = new Stack<>();
         for(char each : s.toCharArray()){
            if(each=='#'){
-               sStack.pop();
+               if(!sStack.isEmpty())sStack.pop();
            }else{
                sStack.push(each);
            }
         }
         for(char each : t.toCharArray()){
             if(each=='#'){
-                tStack.pop();
+                if(!tStack.isEmpty())tStack.pop();
             }else{
                 tStack.push(each);
             }
         }
+
+        if(sStack.size()!=tStack.size()) return false;
+
         while(!sStack.isEmpty()){
             if(sStack.peek()==tStack.peek()){
                 sStack.pop();

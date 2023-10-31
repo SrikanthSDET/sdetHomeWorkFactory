@@ -17,7 +17,7 @@ public class TestNGAnnotationsExecutionOrder {
 	  System.out.println("This is Actual Test1");	  
   }
   
-  @Test
+  @Test()
   public void dtest2() {
 	  System.out.println("This is Actual Test2");	  
   }
