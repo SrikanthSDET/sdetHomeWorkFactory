@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="LearnJava"/>
 			<item value="HomeAssignment"/>
 			<item value="SDET"/>
 			<item value="sdet"/>
@@ -51,6 +52,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="LearnJava"/>
 			<item value="HomeAssignment"/>
 			<item value="UI"/>
 			<item value="RESTAPI"/>
