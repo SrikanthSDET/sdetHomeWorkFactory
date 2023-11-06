@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-05T08:55:09 IST" name="Suite" finished-at="2023-11-05T08:55:09 IST" duration-ms="60">
+    <groups>
+    </groups>
+    <test started-at="2023-11-05T08:55:09 IST" name="Test" finished-at="2023-11-05T08:55:09 IST" duration-ms="60">
+      <class name="testcases.TC001_CreateLead">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.TC001_CreateLead@408d971b]" started-at="2023-11-05T08:55:08 IST" name="startReport" finished-at="2023-11-05T08:55:09 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC001_CreateLead@408d971b]" started-at="2023-11-05T08:55:09 IST" name="setValues" finished-at="2023-11-05T08:55:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="testCaseDetails()[pri:0, instance:testcases.TC001_CreateLead@408d971b]" started-at="2023-11-05T08:55:09 IST" name="testCaseDetails" finished-at="2023-11-05T08:55:09 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetails -->
+        <test-method is-config="true" signature="loginTest()[pri:0, instance:testcases.TC001_CreateLead@408d971b]" started-at="2023-11-05T08:55:09 IST" name="loginTest" finished-at="2023-11-05T08:55:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="createLead()[pri:0, instance:testcases.TC001_CreateLead@408d971b]" started-at="2023-11-05T08:55:09 IST" name="createLead" finished-at="2023-11-05T08:55:09 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="logoutTest()[pri:0, instance:testcases.TC001_CreateLead@408d971b]" started-at="2023-11-05T08:55:09 IST" name="logoutTest" finished-at="2023-11-05T08:55:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.TC001_CreateLead@408d971b]" started-at="2023-11-05T08:55:09 IST" name="endReport" finished-at="2023-11-05T08:55:09 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC001_CreateLead -->
+      <class name="testcases.TC002_EditLead">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC002_EditLead@34e9fd99]" started-at="2023-11-05T08:55:09 IST" name="setValues" finished-at="2023-11-05T08:55:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="testCaseDetails()[pri:0, instance:testcases.TC002_EditLead@34e9fd99]" started-at="2023-11-05T08:55:09 IST" name="testCaseDetails" finished-at="2023-11-05T08:55:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetails -->
+        <test-method is-config="true" signature="loginTest()[pri:0, instance:testcases.TC002_EditLead@34e9fd99]" started-at="2023-11-05T08:55:09 IST" name="loginTest" finished-at="2023-11-05T08:55:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="editLead()[pri:0, instance:testcases.TC002_EditLead@34e9fd99]" started-at="2023-11-05T08:55:09 IST" name="editLead" finished-at="2023-11-05T08:55:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method is-config="true" signature="logoutTest()[pri:0, instance:testcases.TC002_EditLead@34e9fd99]" started-at="2023-11-05T08:55:09 IST" name="logoutTest" finished-at="2023-11-05T08:55:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- testcases.TC002_EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
